@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mote · Mac 内测</title>
+<link rel="stylesheet" href="site.css">
+<main>
+<header><img src="bird.png" width="64" height="64" alt=""><span>Mote</span><span class="beta">朋友内测</span></header>
+<section class="intro"><h1>把待办理顺。<br>看见时间去了哪里。</h1><p>桌面上的小雀，鼠标移过去就是待办清单。安排一天、开始专注，晚上对照计划和实际活动。</p><a class="primary" id="download">下载 M 系列 Mac 版</a><p class="meta" id="version">正在读取版本…</p><a class="subtle" href="#install">查看安装步骤 ↓</a></section>
+<section class="features"><p><strong>随手记下</strong>回车新建任务，Tab 缩进为子任务。</p><p><strong>陪你专注</strong>番茄计时、超时累计、休息和完整暂离。</p><p><strong>回看一天</strong>同一张日历，左边计划，右边实际。</p></section>
+<section id="install"><h2>第一次安装</h2><ol><li>下载并解压 ZIP，把 <b>Mote.app</b> 拖进「应用程序」，再打开。</li><li>这是暂未经过 Apple 公证的内测版。macOS 可能阻止首次打开。确认下载来自本页后，可在「系统设置 → 隐私与安全性」里查看「仍要打开」，由你本人决定是否允许。</li><li>想使用自动活动记录时，按 Mote 提示开启「辅助功能」。仅用于读取应用名和窗口标题。你可以在 Mote「记录」里关闭自动记录。</li></ol><p class="note">活动与待办保存在本机。检查更新会连接 GitHub 读取公开版本信息。反馈在你点击发送后，通过 FormSubmit 转交给开发者。</p><p class="note">AI 拆解与「卡住了」助手需要你自己的 Codex 安装和登录。这一版可直接使用待办、计时和本地活动记录。</p></section>
+<section><h2>遇到问题，直接告诉我</h2><p>写下你当时想做什么、哪一步没有按预期发生。也欢迎告诉我你在哪些时候根本不想打开 Mote。</p><form id="feedback"><label for="message">问题或想法</label><textarea id="message" rows="5" required placeholder="我当时想……&#10;结果……&#10;我希望……"></textarea><label for="system">Mac 系统版本（可选）</label><input id="system" placeholder="例如 macOS 15"><div class="actions"><button type="submit" id="submit-feedback">发送反馈</button><button type="button" id="copy">复制反馈内容</button></div><p class="note">通过 FormSubmit 将你填写的内容和版本信息发送给 Mote 开发者。</p><p id="feedback-status" role="status"></p></form></section>
+<section><h2>以后怎么更新</h2><p>Mote 会定期检查新版，并在面板里提醒。点击「查看下载」，退出旧版，再用新的 Mote.app 替换应用程序中的旧版。升级可能需要重新确认辅助功能权限。</p><p>也可以随时回到本页下载。每次发布都会附更新说明。</p><a id="releases">查看所有版本和更新说明 ↗</a></section>
+<footer>面向 M1、M2、M3、M4 等 Apple 芯片 Mac 的内测版本。</footer>
+</main>
+<script src="config.js"></script>
+<script src="site.js"></script>
+</html>
